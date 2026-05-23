@@ -326,7 +326,7 @@ export default function Career() {
         {/* Open application */}
         <div className="open-application-box" style={{ textAlign: "center", marginTop: "56px", padding: "48px 40px", background: "#fff", borderRadius: "16px", border: "1px solid #e2e8f0" }}>
           <p style={{ fontSize: "13px", fontWeight: 600, color: C.blue, marginBottom: "12px", textTransform: "uppercase", letterSpacing: "0.08em" }}>// Don't see your role?</p>
-          <h3 style={{ fontSize: "26px", fontWeight: 800, color: C.navy, marginBottom: "12px" }}>We're Always Looking for Great Talent</h3>
+          <h3 style={{ fontSize: "26px", fontWeight: 800, color: C.navy, marginBottom: "12px" }}>Great People Build Great Products</h3>
           <p style={{ fontSize: "15px", color: "#64748b", lineHeight: 1.75, maxWidth: "420px", margin: "0 auto 28px" }}>
             Send us your CV and a short note about what you do — we'll reach out when the right opportunity comes up.
           </p>

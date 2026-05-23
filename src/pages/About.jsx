@@ -241,8 +241,8 @@ export default function About() {
           </motion.p>
 
           <motion.h2 {...fade(0.1)} style={{ color: "#fff", fontSize: "44px", fontWeight: 800, lineHeight: 1.15, letterSpacing: "-0.5px", maxWidth: "560px", margin: "0 auto 16px" }}>
-            Ready to Join the{" "}
-            <span style={{ color: C.blue }}>Orizo Community?</span>
+            Let's Create Something{" "}
+            <span style={{ color: C.blue }}>Extraordinary Together</span>
           </motion.h2>
 
           <motion.p {...fade(0.2)} style={{ color: "rgba(255,255,255,0.5)", fontSize: "16px", lineHeight: 1.75, maxWidth: "440px", margin: "0 auto 44px" }}>

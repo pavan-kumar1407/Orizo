@@ -22,8 +22,8 @@ export default function StartJourney() {
 
         {/* headline */}
         <h2 className="journey-heading" style={{ color: "#ffffff", fontSize: "44px", fontWeight: 800, lineHeight: 1.15, letterSpacing: "-0.5px", maxWidth: "580px", margin: "0 auto 20px" }}>
-          Ready to Start Your{" "}
-          <span style={{ color: "#2563EB" }}>Digital Journey?</span>
+          Turn Your Vision Into{" "}
+          <span style={{ color: "#2563EB" }}>a Live Product</span>
         </h2>
 
         {/* subtext */}

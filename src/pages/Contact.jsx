@@ -204,8 +204,8 @@ export default function Contact() {
             </p>
             <div style={{ display: "flex", alignItems: "flex-end", justifyContent: "space-between", flexWrap: "wrap", gap: "16px" }}>
               <h2 style={{ fontSize: "34px", fontWeight: 800, color: C.navy, lineHeight: 1.15, letterSpacing: "-0.5px", maxWidth: "400px" }}>
-                Whatever You Need,{" "}
-                <span style={{ color: C.blue }}>We've Got You Covered</span>
+                From Idea to Launch —{" "}
+                <span style={{ color: C.blue }}>We Handle It All</span>
               </h2>
               <p style={{ fontSize: "15px", color: "#64748b", lineHeight: 1.75, maxWidth: "340px" }}>
                 
