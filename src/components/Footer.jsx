@@ -49,9 +49,21 @@ export default function Footer() {
 
           {/* Brand */}
           <div style={{ gridColumn: "span 1" }}>
-            <div style={{ display: "flex", alignItems: "center", gap: "10px", marginBottom: "16px" }}>
-              <img src="/logo.png" alt="Orizo" style={{ width: "44px", height: "44px", borderRadius: "8px", objectFit: "cover" }} />
-              <span style={{ color: "#fff", fontWeight: 700, fontSize: "22px", letterSpacing: "-0.3px" }}>Orizo</span>
+            <div style={{ display: "flex", alignItems: "center", gap: "14px", marginBottom: "16px" }}>
+              <div style={{
+                background: "#ffffff", borderRadius: "8px",
+                width: "36px", height: "36px", flexShrink: 0,
+                display: "flex", alignItems: "center", justifyContent: "center",
+                padding: "2px",
+              }}>
+                <img src="/o.jpeg" alt="Orizo" style={{ width: "100%", height: "100%", objectFit: "contain", borderRadius: "6px", display: "block" }} />
+              </div>
+              <div style={{ display: "flex", flexDirection: "column", gap: "2px" }}>
+                <span style={{ fontSize: "24px", fontWeight: 800, letterSpacing: "2px", lineHeight: 1 }}>
+                  <span style={{ color: "#ffffff" }}>Orizo </span>
+                  <span style={{ color: "#ffffff" }}>Technologies</span>
+                </span>
+              </div>
             </div>
 
             <p style={{ color: "rgba(255,255,255,0.45)", fontSize: "14px", lineHeight: 1.75, marginBottom: "24px" }}>
@@ -103,7 +115,7 @@ export default function Footer() {
           flexWrap: "wrap", gap: "12px",
         }}>
           <p style={{ color: "rgba(255,255,255,0.35)", fontSize: "12px", margin: 0 }}>
-            © {new Date().getFullYear()} Orizo. All rights reserved.
+            © {new Date().getFullYear()} Orizo Technologies. All rights reserved.
           </p>
           <div style={{ display: "flex", gap: "20px", flexWrap: "wrap" }}>
             {[
